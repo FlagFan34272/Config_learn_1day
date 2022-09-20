@@ -1,0 +1,14 @@
+server name: JoinMessages
+server owner: edit this in config.yml!
+join msg(exclude nickname): edit this in config file!
+join-footer: ==========================================
+cmd-info: enabled
+joinMessage-feather: enabled
+quit-footer: ==============================
+quit msg(exclude nickname): edit this in config file!
+server type: wild
+discord name: name
+discord link: discord.gg/inconfigymlfile
+leaveMessage-feather: enabled
+cmd-discord: enabled
+#join msg's Line changes are "\n" , ex | test \n test)

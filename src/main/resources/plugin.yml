@@ -1,0 +1,13 @@
+name: JoinMessages
+version: '${project.version}'
+main: com.nyaneo.jm.joinmessages.JoinMessages
+api-version: 1.18
+commands:
+  server-owner:
+    description:
+
+  info:
+    description:
+
+  discord:
+    description:
