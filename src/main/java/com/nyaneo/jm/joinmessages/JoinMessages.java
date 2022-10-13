@@ -34,6 +34,7 @@ public final class JoinMessages extends JavaPlugin implements @NotNull Listener 
         config.options().copyDefaults(true);
         saveConfig();
 
+        //참고로 ConfigCallMessages 일부러 안불러옴
         if (config.getString("joinMessage-feather").equalsIgnoreCase("enabled")) {
             e.setJoinMessage(ChatColor.RED + "===============" + config.getString("server name") + "===============\n " + ChatColor.WHITE + "[" + ChatColor.AQUA + "+" + ChatColor.WHITE + "]" + ChatColor.AQUA + player.getName() + ChatColor.GRAY + config.getString("join msg(exclude nickname)") + "\n" + ChatColor.RED + config.getString("join-footer"));
         }
