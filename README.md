@@ -7,3 +7,8 @@ Config 처음 배운 날 만든 플러그인.
 getConfig().set("html","not programming lang");
 this.saveConfig();
 ```
+
+
+```yaml
+html: not programming lang
+```
